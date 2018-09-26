@@ -1,0 +1,15 @@
+extends: airbnb-base
+plugins:
+  - import
+rules:
+  no-process-env: 2
+globals:
+  process: on
+  describe: on
+  before: on
+  after: on
+  beforeEach: on
+  afterEach: on
+  suite: on
+  test: on
+  it: on
